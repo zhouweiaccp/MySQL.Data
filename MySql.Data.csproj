@@ -1,4 +1,4 @@
-﻿<Project>
+<Project>
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
 
   <PropertyGroup>
@@ -68,7 +68,7 @@
     <Reference Include="System.Management" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
-    <PackageReference Include="BouncyCastle" Version="1.8.3.1" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
 
     <EmbeddedResource Include="keywords.txt;Resources.resx;ResourcesX.resx;Properties\ReservedWords.txt" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
   </ItemGroup>
